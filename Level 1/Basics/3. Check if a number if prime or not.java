@@ -1,4 +1,4 @@
-//non optimal solution 
+//non optimal solution with time complexity of up to 10^4 x 10^9 inside the second for loop nested within the first one
 
 import java.util.Scanner;
 
