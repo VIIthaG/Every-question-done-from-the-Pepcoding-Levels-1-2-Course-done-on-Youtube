@@ -46,12 +46,12 @@ class Main {
             }
 
         }
-       //nest 2 loops and break off in the nested one if divisor is found
+
         for (int i = n1; i <= n2; i++) {
 
             int count = 0;
 
-            for (int j = 2; j < i; j++) {
+            for (int j = 2; j*j <= i; j++) {
 
                 if (i % j == 0) {
 
@@ -62,7 +62,7 @@ class Main {
                 }
 
             }
-          //if divisor exists then its non prime other wise it is prime since we stop at root n and start at 2 when checking for divisors
+
             if (count == 1) {
 
                 System.out.println("Non prime:" + i);
