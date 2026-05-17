@@ -19,7 +19,7 @@ class Main {
             num1 = sc.nextInt();
             num2 = sc.nextInt();
 
-            if (num1 <= 2 || num2 <= 2 || num1 >= 1000000000 || num2 >= 1000000000) {
+            if (num1 < 2 || num2 < 2 || num1 > 1000000000 || num2 > 1000000000) {
 
                 System.out.println("You have entered one, or both of the numbers beyond the allowed range, try again");
 
@@ -81,7 +81,7 @@ class Main {
             num1 = sc.nextInt();
             num2 = sc.nextInt();
 
-            if (num1 <= 2 || num2 <= 2 || num1 >= 1000000000 || num2 >= 1000000000) {
+            if (num1 < 2 || num2 < 2 || num1 > 1000000000 || num2 > 1000000000) {
 
                 System.out.println("Enter the numbers within the permitted bounds:");
 
