@@ -1,3 +1,5 @@
+// Ok so here in this program its just combining the solution of the previous 2 programs that were done by sumit sir not the 2 solutions done by me, so just print the stars when i==j and i+j==n+1
+
 import java.util.Scanner;
 
 class Main {
