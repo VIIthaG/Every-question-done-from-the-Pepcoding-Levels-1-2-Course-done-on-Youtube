@@ -9,8 +9,7 @@ class Main {
         int col;
 
         System.out.println(
-            "Enter a Number for the number of rows that you wish to print:"
-        );
+            "Enter a Number for the number of rows that you wish to print, Note that only odd numbers are allowed:" );
 
         while (true) {
 
